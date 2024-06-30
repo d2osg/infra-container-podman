@@ -1,4 +1,5 @@
 
+echo "*** to setup: *****************"
 echo "openssl genrsa -des3 -out /opt/registry/certs/domain.key 2048"
 echo "openssl req -new -key /opt/registry/certs/domain.key -out /opt/registry/certs/domain.csr"
 echo "cp domain.key domain.key.org"
